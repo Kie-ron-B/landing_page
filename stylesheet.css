@@ -5,8 +5,8 @@ header {
 
 }
 
-h2.logoText {
-    font-family: 'Roboto', serif;
+.logoText {
+    font-family: 'Roboto', sans-serif;
     color: #F9FaF8;
     font-size: 24px;
 }
