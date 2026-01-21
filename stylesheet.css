@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com');
+
+header {
+    background-color: #1F2937;
+
+}
+
+h2.logoText {
+    font-family: 'Roboto', serif;
+    color: #F9FaF8;
+    font-size: 24px;
+}
