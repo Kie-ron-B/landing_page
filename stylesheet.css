@@ -2,11 +2,30 @@
 
 header {
     background-color: #1F2937;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 300px
 }
 
-.logoText {
+.logoText a {
     font-family: 'Roboto', sans-serif;
     color: #F9FaF8;
     font-size: 24px;
+    text-decoration: none;
+}
+
+.headerLinks a {
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.noBullets {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    gap: 20px;
 }
