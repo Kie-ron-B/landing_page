@@ -1,11 +1,25 @@
 @import url('https://fonts.googleapis.com');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px 300px
+}
+
+.welcomeScreenSection {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 300px;
 }
 
 .logoText a {
@@ -15,7 +29,7 @@ header {
     text-decoration: none;
 }
 
-.headerLinks a {
+.heroLink a {
     font-family: 'Roboto', sans-serif;
     color: #E5E7EB;
     font-size: 18px;
@@ -28,4 +42,189 @@ header {
     display: flex;
     padding: 0;
     gap: 20px;
+}
+
+.heroGroup {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 50%;
+    gap: 20px;
+}
+
+h1 {
+    position:relative;
+    z-index: 2;
+    margin: 0;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #F9FaF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.heroText {
+    position: relative;
+    z-index: 2;
+    white-space: wrap;
+    margin: 0%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.heroImg {
+    max-width: 35%;
+    height: auto;
+}
+
+.welcomeSuButton {
+    background-color: #3882F6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    width: fit-content;
+}
+
+.qualityHeader {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding-top: 50px;
+}
+
+.qualityBoxes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: auto;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.item p {
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937;
+    width: 200px;
+    max-width: 200px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+[class^="box-"] {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+[class^="box-"] img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
+    padding: 50px 400px;
+}
+
+.plainText {
+    font-family: 'roboto', sans-serif;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.quoteAuthorText {
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.signUpSection {
+    padding: 50px 300px;
+}
+
+.calloutBox {
+    background-color: #3882F6;
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    gap: 30px;
+    border-radius: 5px;
+}
+
+.calloutText {
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+}
+
+.calloutBold {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.calloutThin {
+    font-size: 18px;
+}
+
+.calloutButton {
+    background-color: #3882F6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    border: 4px solid #E5E7EB;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    width: fit-content;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 300px;
+}
+
+.footerCopyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #E5E7FB;
 }
